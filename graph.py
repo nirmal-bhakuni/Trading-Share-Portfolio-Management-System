@@ -17,7 +17,7 @@ df["Change %"] = ((df["Current Price"] - df["Buy Price"]) / df["Buy Price"]) * 1
 # Create main Tkinter window
 root = tk.Tk()
 root.title("Stock Portfolio Analysis")
-root.geometry("1000x600")  # Window size
+root.state("zoomed")  
 
 # **LEFT SIDE: STOCK TABLE**
 frame_table = tk.Frame(root)
